@@ -6,28 +6,28 @@ This repository contains the source files for computing the dot product between 
 To measure the performance of the two kernels, each version was run 20 times with varying sizes for the vector size **n**: \(2^{20}, 2^{24}, 2^{27}\). After each iteration, the average execution time was recorded.
 
 ### Debug Mode
-#### Vector Size: \(2^<sup>20</sup>\)
+#### Vector Size: \(2<sup>20</sup>\)
 ![debug 20](https://github.com/user-attachments/assets/7c204a94-c755-49f5-b46f-122492f86877)
 Program Output in C and x86-64 with Correctness Check
 
-#### Vector Size: \(2^{24}\)
+#### Vector Size: \(2<sup>24</sup>\)
 ![debug 24](https://github.com/user-attachments/assets/24d582a0-5a7f-4c74-b381-d47f291cc064)
 Program Output in C and x86-64 with Correctness Check
 
-#### Vector Size: \(2^{27}\)
+#### Vector Size: \(2<sup>27</sup>\)
 ![debug 27](https://github.com/user-attachments/assets/1f5d547d-f823-497e-8acd-7d3759d4196d)
 Program Output in C and x86-64 with Correctness Check
 
 ### Release Mode
-#### Vector Size: \(2^{20}\)
+#### Vector Size: \(2<sup>20</sup>\)
 ![release 20](https://github.com/user-attachments/assets/7b964e13-23a8-429f-8afc-88b6fda4a771)
 Program Output in C and x86-64 with Correctness Check
 
-#### Vector Size: \(2^{24}\)
+#### Vector Size: \(2<sup>24</sup>\)
 ![release 24](https://github.com/user-attachments/assets/cb732c17-56d3-4dad-9fd2-46683a86dd14)
 Program Output in C and x86-64 with Correctness Check
 
-#### Vector Size: \(2^{27}\)
+#### Vector Size: \(2<sup>27</sup>\)
 ![release 27](https://github.com/user-attachments/assets/8d04c509-514c-4efd-8e0c-c79789349aca)
 Program Output in C and x86-64 with Correctness Check
 
