@@ -6,7 +6,7 @@ This repository contains the source files for computing the dot product between 
 To measure the performance of the two kernels, each version was run 20 times with varying sizes for the vector size **n**: \(2^{20}, 2^{24}, 2^{27}\). After each iteration, the average execution time was recorded.
 
 ### Debug Mode
-#### Vector Size: \(2^{20}\)
+#### Vector Size: \(2^<sup>20</sup>\)
 ![debug 20](https://github.com/user-attachments/assets/7c204a94-c755-49f5-b46f-122492f86877)
 Program Output in C and x86-64 with Correctness Check
 
