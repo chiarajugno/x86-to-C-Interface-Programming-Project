@@ -136,6 +136,9 @@
       <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c:\nasm\nasm -f win64 kernelAssembly.asm</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">kernelAssembly.obj</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\nasm\nasm -f win64 kernelAssembly.asm</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">kernelAssembly.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
