@@ -1,9 +1,12 @@
+; kernel x86-64 assembly language version
+
 section .data
 ans dq 0.0
 
 section .text
 bits 64
 default rel
+
 global callAssembly
 
 callAssembly:
