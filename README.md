@@ -3,7 +3,7 @@
 This repository contains the source files for computing the dot product between two double-precision float vectors, **X** and **Y**, using C and x86-64 kernels. A value of **2.0** was initialized and stored in vector **X**, while a value of **1.0** was used in vector **Y**. The output is stored in **sdot**.
 
 ## Performance of the Kernels
-To measure the performance of the two kernels, each version was run 20 times with varying sizes for the vector size **n**: \(2^{20}, 2^{24}, 2^{27}\). After each iteration, the average execution time was recorded.
+To measure the performance of the two kernels, each version was run 20 times with varying sizes for the vector size **n**: \(2<sup>20</sup>, 2<sup>24</sup>, 2<sup>27</sup>\). After each iteration, the average execution time was recorded.
 
 ### Debug Mode
 #### Vector Size: \(2<sup>20</sup>\)
