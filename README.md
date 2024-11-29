@@ -1,4 +1,4 @@
-![debug 20](https://github.com/user-attachments/assets/49a797d2-5c72-4ff4-a81e-c3d8eaaa702a)# x86-to-64 Interface Programming Project
+# x86-to-64 Interface Programming Project
 
 This repository contains the source files for computing the dot product between two double-precision float vectors, **X** and **Y**, using C and x86-64 kernels. A value of **2.0** was initialized and stored in vector **X**, while a value of **1.0** was used in vector **Y**. The output is stored in **sdot**.
 
