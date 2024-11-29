@@ -35,12 +35,11 @@ Program Output in C and x86-64 with Correctness Check
 ### Performance in Debug Mode
 In Debug Mode, the x86-64 assembly kernel version consistently outperformed the C version across different vector sizes. This is primarily because, in debug mode, the compiler compiles the code as is. Thus, the C version runs with no optimizations and may run slower due to added debugging information and runtime checks. On the other hand, the assembly code is unaffected by these debug features, as it is already in its optimized, low-level form.
 
+### Performance in Release Mode
+In Release Mode, the C implementation yielded faster execution times compared to the x86-64 assembly kernel. During the compilation of release builds, the compiler applies aggressive optimizations, leading to faster execution and minimal memory usage. In this mode, the absence of runtime checks allows for highly efficient execution, often surpassing manually written assembly code.
+
 ### Short-Video Presentation
 
 #### LBYARCH S13 Project Group 11
 * CRUZ, KATHLEEN THERESE
 * JUGNO, CHIARA LOUISE
-
-### Performance in Release Mode
-In Release Mode, the C implementation yielded faster execution times compared to the x86-64 assembly kernel. During the compilation of release builds, the compiler applies aggressive optimizations, leading to faster execution and minimal memory usage. In this mode, the absence of runtime checks allows for highly efficient execution, often surpassing manually written assembly code.
-
