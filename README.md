@@ -1,5 +1,13 @@
 # x86-to-64 Interface Programming Project
 
+#### LBYARCH S13 Project Group 11
+* CRUZ, KATHLEEN THERESE
+* JUGNO, CHIARA LOUISE
+  
+### Short-Video Presentation
+The link to our video presentation can be found [here.](https://drive.google.com/file/d/1ea5fwi7H-yJYjZXDsiXfrVmA_XwCRKt0/view?usp=sharing)
+
+### About the Project
 This repository contains the source files for computing the dot product between two double-precision float vectors, **X** and **Y**, using C and x86-64 kernels. A value of **2.0** was initialized and stored in vector **X**, while a value of **1.0** was used in vector **Y**. The output is stored in **sdot**.
 
 ## Performance of the Kernels
@@ -37,9 +45,3 @@ In Debug Mode, the x86-64 assembly kernel version consistently outperformed the 
 
 ### Performance in Release Mode
 In Release Mode, the C implementation yielded faster execution times compared to the x86-64 assembly kernel. During the compilation of release builds, the compiler applies aggressive optimizations, leading to faster execution and minimal memory usage. In this mode, the absence of runtime checks allows for highly efficient execution, often surpassing manually written assembly code.
-
-### Short-Video Presentation
-
-#### LBYARCH S13 Project Group 11
-* CRUZ, KATHLEEN THERESE
-* JUGNO, CHIARA LOUISE
